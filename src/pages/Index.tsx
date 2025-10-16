@@ -14,18 +14,15 @@ const Index = () => {
   const [selectedMatch, setSelectedMatch] = useState<number | null>(null);
 
   const matches = [
-    { id: 1, team1: 'Thunder Kings', team2: 'Phoenix Flames', score1: 94, score2: 89, time: 'Final', date: 'Oct 15, 2025' },
-    { id: 2, team1: 'Storm Warriors', team2: 'Eagle Knights', score1: 78, score2: 82, time: 'Q3 - 4:32', date: 'Oct 16, 2025', live: true },
-    { id: 3, team1: 'Lightning Bolts', team2: 'Glacier Bears', score1: 0, score2: 0, time: '18:00', date: 'Oct 17, 2025', upcoming: true },
+    { id: 1, team1: 'Лайкерс', team2: 'Реал Мадрид', score1: 94, score2: 89, time: 'Final', date: 'Oct 15, 2025' },
+    { id: 2, team1: 'Панатинаикос', team2: 'Лайкерс', score1: 78, score2: 82, time: 'Q3 - 4:32', date: 'Oct 16, 2025', live: true },
+    { id: 3, team1: 'Реал Мадрид', team2: 'Панатинаикос', score1: 0, score2: 0, time: '18:00', date: 'Oct 17, 2025', upcoming: true },
   ];
 
   const standings = [
-    { rank: 1, team: 'Thunder Kings', wins: 12, losses: 3, pct: 0.800 },
-    { rank: 2, team: 'Eagle Knights', wins: 11, losses: 4, pct: 0.733 },
-    { rank: 3, team: 'Phoenix Flames', wins: 9, losses: 6, pct: 0.600 },
-    { rank: 4, team: 'Storm Warriors', wins: 8, losses: 7, pct: 0.533 },
-    { rank: 5, team: 'Lightning Bolts', wins: 6, losses: 9, pct: 0.400 },
-    { rank: 6, team: 'Glacier Bears', wins: 4, losses: 11, pct: 0.267 },
+    { rank: 1, team: 'Лайкерс', wins: 12, losses: 3, pct: 0.800 },
+    { rank: 2, team: 'Реал Мадрид', wins: 11, losses: 4, pct: 0.733 },
+    { rank: 3, team: 'Панатинаикос', wins: 9, losses: 6, pct: 0.600 },
   ];
 
   const news = [
